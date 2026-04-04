@@ -1,6 +1,6 @@
 services:
   - type: web
     name: pressmanager-backend
-    runtime: java
-    buildCommand: "./mvnw clean install"
-    startCommand: "java -jar target/*.jar"
+    env: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/*.jar
